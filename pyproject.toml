@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enlist-io"
+version = "0.1.0"
+description = "A Python package for enlist-io"
+authors = [
+    {name = "jimoem24", email = "jimoem24@example.com"},  # Reemplaza con tu email real
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    # Agrega tus dependencias aquí si las necesitas
+    # Por ejemplo: "requests>=2.25.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/jimoem24/enlist-io"  # Reemplaza con tu repo real
+Repository = "https://github.com/jimoem24/enlist-io.git"
+Issues = "https://github.com/jimoem24/enlist-io/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]</content>
+<parameter name="filePath">/home/jimoem24/Developer/enlist-io/pyproject.toml
