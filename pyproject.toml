@@ -46,5 +46,5 @@ Issues = "https://github.com/JimmyHernandez/enlist-io/issues"
 package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
-where = ["src"]</content>
-<parameter name="filePath">/home/jimoem24/Developer/enlist-io/pyproject.toml
+where = ["src"]
+
