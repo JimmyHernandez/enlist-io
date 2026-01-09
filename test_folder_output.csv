@@ -1,0 +1,3 @@
+Name,Path,Link,Description,IsDir
+archivo1.txt,test_folder/archivo1.txt,file:///home/jimoem24/Developer/enlist-io/test_folder/archivo1.txt,Archivo                  .txt,False
+carpeta1,test_folder/carpeta1,file:///home/jimoem24/Developer/enlist-io/test_folder/carpeta1,Directorio,True
