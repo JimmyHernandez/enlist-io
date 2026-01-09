@@ -7,10 +7,23 @@ name = "enlist-io"
 version = "0.1.0"
 description = "A Python package for enlist-io"
 authors = [
-    {name = "jimoem24", email = "jimoem24@example.com"},  # Reemplaza con tu email real
+    {name = "Jimmy Hernandez", email = "jimoem24@gmail.com"},
 ]
+
+keywords = [
+    "filesystem",
+    "directory",
+    "scanner",
+    "csv",
+    "files",
+    "folders"
+]
+requires-python = ">=3.10"
+
 readme = "README.md"
+
 license = {file = "LICENSE"}
+
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -21,15 +34,16 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
-dependencies = [
-    # Agrega tus dependencias aquí si las necesitas
-    # Por ejemplo: "requests>=2.25.0"
-]
+
+dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/jimoem24/enlist-io"  # Reemplaza con tu repo real
-Repository = "https://github.com/jimoem24/enlist-io.git"
-Issues = "https://github.com/jimoem24/enlist-io/issues"
+Homepage = "https://github.com/JimmyHernandez/enlist-io"
+Repository = "https://github.com/JimmyHernandez/enlist-io"
+Issues = "https://github.com/JimmyHernandez/enlist-io/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]</content>
